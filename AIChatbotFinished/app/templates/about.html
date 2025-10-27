@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}About - University of Birmingham Assistant{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-10 col-xl-9">
+        <h2>About Birmingham Assistant Chatbot</h2>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-robot me-2 text-primary"></i>What I Can Help With</h5>
+                <ul class="mt-3">
+                    <li><strong>Grade Appeals:</strong> Learn the process for appealing grades</li>
+                    <li><strong>Academic Misconduct:</strong> Understanding policies and consequences</li>
+                    <li><strong>Examination Regulations:</strong> Pass marks, resits, and exam periods</li>
+                    <li><strong>Graduation Requirements:</strong> What you need to graduate</li>
+                    <li><strong>Attendance Policies:</strong> University attendance requirements</li>
+                    <li><strong>Enrollment:</strong> Registration and course information</li>
+                    <li><strong>Extenuating Circumstances:</strong> EC submissions and deadlines</li>
+                </ul>
+
+                <h5 class="mt-4"><i class="fas fa-question-circle me-2 text-primary"></i>How to Use</h5>
+                <p>Simply type your question in plain English, or click one of the quick question buttons. I'll provide information based on University of Birmingham regulations and policies.</p>
+
+                <div class="alert alert-info mt-3">
+                    <i class="fas fa-info-circle me-2"></i>
+                    <strong>Remember:</strong> While I strive to provide accurate information, always verify important decisions with official university sources or your academic advisor.
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-phone-alt me-2 text-primary"></i>Contact Information</h5>
+                <p>For official support and enquiries, please contact:</p>
+
+                <div class="row mt-3">
+                    <div class="col-md-6 mb-3">
+                        <h6><i class="fas fa-building me-2"></i>Student Services</h6>
+                        <p class="mb-1">Email: <a href="mailto:studentservices@contacts.bham.ac.uk">studentservices@contacts.bham.ac.uk</a></p>
+                        <p class="mb-1">Phone: +44 (0)121 414 3344</p>
+                        <p class="mb-1">Location: Student Hub, Aston Webb Building</p>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <h6><i class="fas fa-graduation-cap me-2"></i>Academic Services</h6>
+                        <p class="mb-1">Email: <a href="mailto:academicservices@contacts.bham.ac.uk">academicservices@contacts.bham.ac.uk</a></p>
+                        <p class="mb-1">For appeals, regulations, and academic queries</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h6><i class="fas fa-globe me-2"></i>Online Resources</h6>
+                        <p class="mb-1"><a href="https://my.bham.ac.uk" target="_blank">Student Portal (my.bham)</a></p>
+                        <p class="mb-1"><a href="https://canvas.bham.ac.uk" target="_blank">Canvas Learning Platform</a></p>
+                        <p class="mb-1"><a href="https://intranet.birmingham.ac.uk" target="_blank">Student Intranet</a></p>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <h6><i class="fas fa-clock me-2"></i>Opening Hours</h6>
+                        <p class="mb-1">Student Hub: Mon-Fri, 9:00 AM - 5:00 PM</p>
+                        <p class="mb-1">Library: 24/7 during term time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body text-center">
+                <h5><i class="fas fa-comments me-2 text-primary"></i>Start Chatting</h5>
+                <p>Ready to get answers to your questions?</p>
+                <a href="/" class="btn btn-primary">
+                    <i class="fas fa-robot me-2"></i>Launch Chatbot
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

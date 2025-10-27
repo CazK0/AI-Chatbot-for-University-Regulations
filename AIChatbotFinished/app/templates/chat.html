@@ -1,0 +1,417 @@
+{% extends "base.html" %}
+
+{% block title %}Chat - University of Birmingham Assistant{% endblock %}
+
+{% block content %}
+<style>
+    #chatContainer {
+        height: 500px;
+        overflow-y: auto;
+        background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+        border: none;
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+
+    [data-theme="dark"] #chatContainer {
+        background: linear-gradient(to bottom, #2d2d2d, #1a1a1a);
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    #welcomeMessage {
+        text-align: center;
+        padding: 40px 20px;
+        animation: fadeIn 0.8s ease-out;
+    }
+
+    #welcomeMessage h5 {
+        color: var(--primary-color);
+        font-weight: 600;
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+
+    #welcomeMessage .btn {
+        margin: 5px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        background: white;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        transition: all 0.3s ease;
+    }
+
+    #welcomeMessage .btn:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .message-bubble {
+        max-width: 70%;
+        padding: 12px 18px;
+        margin: 10px 0;
+        border-radius: 18px;
+        position: relative;
+        animation: slideIn 0.3s ease-out;
+    }
+
+    .user-message {
+        background: linear-gradient(135deg, var(--primary-color), #2c5282);
+        color: white;
+        margin-left: auto;
+        border-bottom-right-radius: 4px;
+    }
+
+    .bot-message {
+        background: white;
+        color: var(--dark-text);
+        border: 1px solid #e0e0e0;
+        border-bottom-left-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    [data-theme="dark"] .bot-message {
+        background: #3d3d3d;
+        color: #e0e0e0;
+        border-color: #555;
+    }
+
+    .message-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+        opacity: 0.7;
+    }
+
+    .user-message .message-label {
+        text-align: right;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .bot-message .message-label {
+        color: var(--secondary-color);
+    }
+
+    .input-group {
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #messageInput {
+        border: none;
+        padding: 15px 25px;
+        font-size: 1rem;
+        background: white;
+        color: var(--dark-text);
+    }
+
+    [data-theme="dark"] #messageInput {
+        background: #3d3d3d;
+        color: #e0e0e0;
+    }
+
+    #messageInput:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    #sendButton {
+        border: none;
+        background: linear-gradient(45deg, var(--secondary-color), var(--accent-color));
+        color: white;
+        padding: 0 30px;
+        transition: all 0.3s ease;
+    }
+
+    #sendButton:hover {
+        background: linear-gradient(45deg, var(--accent-color), var(--secondary-color));
+    }
+
+    #sendButton:disabled {
+        opacity: 0.6;
+    }
+
+    .typing-indicator {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .typing-indicator span {
+        height: 10px;
+        width: 10px;
+        background: var(--secondary-color);
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 2px;
+        animation: typing 1.4s infinite ease-in-out;
+    }
+
+    .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+    .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+    @keyframes typing {
+        0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+        40% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes slideIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    #chatContainer::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #chatContainer::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    #chatContainer::-webkit-scrollbar-thumb {
+        background: var(--secondary-color);
+        border-radius: 10px;
+    }
+
+    #chatContainer::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-color);
+    }
+
+    .chat-header {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: white;
+        padding: 20px;
+        border-radius: 15px 15px 0 0;
+        text-align: center;
+    }
+
+    .chat-header h2 {
+        color: white;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .chat-header h2:after {
+        display: none;
+    }
+
+    .chat-header p {
+        margin: 5px 0 0 0;
+        opacity: 0.9;
+    }
+</style>
+
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-11 col-xl-10">
+        <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+            <div class="chat-header">
+                <h2><i class="fas fa-robot me-2"></i>Birmingham Assistant Chatbot</h2>
+                <p>Your AI-powered guide to University of Birmingham regulations</p>
+            </div>
+
+            <div class="card-body p-0">
+                <div id="chatContainer">
+                    <div id="welcomeMessage">
+                        <i class="fas fa-graduation-cap" style="font-size: 3rem; color: var(--secondary-color); margin-bottom: 20px;"></i>
+                        <h5>Hello! I'm here to help with university questions</h5>
+                        <div class="quick-questions">
+                            <button class="btn" onclick="sendQuickQuestion('How do I appeal a grade?')">
+                                <i class="fas fa-gavel me-2"></i>Grade Appeals
+                            </button>
+                            <button class="btn" onclick="sendQuickQuestion('What is academic misconduct?')">
+                                <i class="fas fa-exclamation-triangle me-2"></i>Academic Misconduct
+                            </button>
+                            <button class="btn" onclick="sendQuickQuestion('What are graduation requirements?')">
+                                <i class="fas fa-user-graduate me-2"></i>Graduation
+                            </button>
+                            <button class="btn" onclick="sendQuickQuestion('When are examination periods?')">
+                                <i class="fas fa-calendar-alt me-2"></i>Exam Periods
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="typingIndicator" style="display: none; margin: 15px 0;">
+                        <div class="message-bubble bot-message" style="max-width: 200px;">
+                            <div class="message-label">Assistant</div>
+                            <div class="typing-indicator">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4">
+                    <form id="chatForm">
+                        <div class="input-group">
+                            <input type="text" id="messageInput" class="form-control"
+                                   placeholder="Ask me anything about university regulations..."
+                                   maxlength="500">
+                            <button type="submit" class="btn" id="sendButton">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="mt-3 text-center">
+                        <button onclick="clearChat()" class="btn btn-outline-secondary btn-sm me-2">
+                            <i class="fas fa-broom me-1"></i>Clear Chat
+                        </button>
+                        <a href="/history" class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-clock-rotate-left me-1"></i>View History
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const chatContainer = document.getElementById('chatContainer');
+    const messageInput = document.getElementById('messageInput');
+    const sendButton = document.getElementById('sendButton');
+    const chatForm = document.getElementById('chatForm');
+
+    let messageCount = 0;
+
+    chatForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        sendMessage();
+    });
+
+    function sendQuickQuestion(question) {
+        console.log('Quick question clicked:', question);
+        messageInput.value = question;
+        sendMessage();
+    }
+
+    function sendMessage() {
+        const message = messageInput.value.trim();
+        console.log('Sending message:', message);
+        if (!message) {
+            console.log('Message is empty, returning');
+            return;
+        }
+
+        if (messageCount === 0) {
+            const welcomeMsg = document.getElementById('welcomeMessage');
+            if (welcomeMsg) {
+                welcomeMsg.style.display = 'none';
+            }
+        }
+
+        addMessage(message, 'user');
+        messageInput.value = '';
+        sendButton.disabled = true;
+        showTypingIndicator();
+
+        fetch('/chat', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ message: message })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            hideTypingIndicator();
+            if (data.error) {
+                addMessage('Error: ' + data.error, 'bot');
+            } else {
+                addMessage(data.response, 'bot');
+            }
+            sendButton.disabled = false;
+            messageInput.focus();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            hideTypingIndicator();
+            addMessage('Connection error. Please try again.', 'bot');
+            sendButton.disabled = false;
+        });
+    }
+
+    function showTypingIndicator() {
+        const typingIndicator = document.getElementById('typingIndicator');
+        if (typingIndicator) {
+            typingIndicator.style.display = 'block';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+    }
+
+    function hideTypingIndicator() {
+        const typingIndicator = document.getElementById('typingIndicator');
+        if (typingIndicator) {
+            typingIndicator.style.display = 'none';
+        }
+    }
+
+    function addMessage(text, sender) {
+        const messageContainer = document.createElement('div');
+        messageContainer.className = 'd-flex ' + (sender === 'user' ? 'justify-content-end' : 'justify-content-start');
+        messageContainer.style.marginBottom = '15px';
+
+        const messageBubble = document.createElement('div');
+        messageBubble.className = 'message-bubble ' + (sender === 'user' ? 'user-message' : 'bot-message');
+
+        const label = document.createElement('div');
+        label.className = 'message-label';
+        label.textContent = sender === 'user' ? 'You' : 'Assistant';
+
+        const content = document.createElement('div');
+        if (sender === 'user') {
+            content.textContent = text;
+        } else {
+            let formattedText = text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n/g, '<br>')
+                .replace(/â€¢ /g, '<i class="fas fa-circle fa-xs me-2"></i>');
+            content.innerHTML = formattedText;
+        }
+
+        messageBubble.appendChild(label);
+        messageBubble.appendChild(content);
+        messageContainer.appendChild(messageBubble);
+
+        chatContainer.appendChild(messageContainer);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+        messageCount++;
+    }
+
+    function clearChat() {
+        if (confirm('Clear all messages?')) {
+            fetch('/clear_history', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'}
+            })
+            .then(() => {
+                location.reload();
+            })
+            .catch(error => console.error('Error clearing history:', error));
+        }
+    }
+
+    messageInput.focus();
+
+    messageInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendMessage();
+        }
+    });
+</script>
+{% endblock %}

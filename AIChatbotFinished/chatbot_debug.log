@@ -1,0 +1,682 @@
+2025-08-23 16:08:19,477 - university_chatbot - DEBUG - [2025-08-23 16:08:19.477028] Gemini AI initialized
+2025-08-23 16:08:19,478 - university_chatbot - DEBUG - [2025-08-23 16:08:19.478138] Loading policy: assessment_progression_award
+2025-08-23 16:08:19,478 - university_chatbot - DEBUG - [2025-08-23 16:08:19.478138] Using cached assessment_progression_award
+2025-08-23 16:08:24,464 - university_chatbot - DEBUG - [2025-08-23 16:08:24.464625] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:08:24,464 - university_chatbot - DEBUG - [2025-08-23 16:08:24.464625] Loading policy: student_conduct
+2025-08-23 16:08:24,465 - university_chatbot - DEBUG - [2025-08-23 16:08:24.465996] Using cached student_conduct
+2025-08-23 16:08:25,592 - university_chatbot - DEBUG - [2025-08-23 16:08:25.592059] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:08:25,592 - university_chatbot - DEBUG - [2025-08-23 16:08:25.592059] Loading policy: programmes_study
+2025-08-23 16:08:25,593 - university_chatbot - DEBUG - [2025-08-23 16:08:25.593060] Using cached programmes_study
+2025-08-23 16:08:27,409 - university_chatbot - DEBUG - [2025-08-23 16:08:27.409166] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:08:27,409 - university_chatbot - DEBUG - [2025-08-23 16:08:27.409166] Loading policy: admission_registration
+2025-08-23 16:08:27,410 - university_chatbot - DEBUG - [2025-08-23 16:08:27.410202] Using cached admission_registration
+2025-08-23 16:08:29,101 - university_chatbot - DEBUG - [2025-08-23 16:08:29.101730] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:08:29,101 - university_chatbot - DEBUG - [2025-08-23 16:08:29.101730] Total policies loaded: 4
+2025-08-23 16:08:29,102 - university_chatbot - DEBUG - [2025-08-23 16:08:29.101730] Initialized with 4 policies loaded
+2025-08-23 16:08:29,102 - university_chatbot - DEBUG - [2025-08-23 16:08:29.102787] Chatbot initialized with 4 PDF documents
+2025-08-23 16:08:29,185 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:08:29,185 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:08:29,189 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:08:33,259 - university_chatbot - DEBUG - [2025-08-23 16:08:33.259674] Gemini AI initialized
+2025-08-23 16:08:33,259 - university_chatbot - DEBUG - [2025-08-23 16:08:33.259674] Loading policy: assessment_progression_award
+2025-08-23 16:08:33,260 - university_chatbot - DEBUG - [2025-08-23 16:08:33.260696] Using cached assessment_progression_award
+2025-08-23 16:08:37,658 - university_chatbot - DEBUG - [2025-08-23 16:08:37.658327] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:08:37,658 - university_chatbot - DEBUG - [2025-08-23 16:08:37.658327] Loading policy: student_conduct
+2025-08-23 16:08:37,658 - university_chatbot - DEBUG - [2025-08-23 16:08:37.658327] Using cached student_conduct
+2025-08-23 16:08:39,055 - university_chatbot - DEBUG - [2025-08-23 16:08:39.055523] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:08:39,055 - university_chatbot - DEBUG - [2025-08-23 16:08:39.055523] Loading policy: programmes_study
+2025-08-23 16:08:39,055 - university_chatbot - DEBUG - [2025-08-23 16:08:39.055523] Using cached programmes_study
+2025-08-23 16:08:41,177 - university_chatbot - DEBUG - [2025-08-23 16:08:41.177104] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:08:41,177 - university_chatbot - DEBUG - [2025-08-23 16:08:41.177104] Loading policy: admission_registration
+2025-08-23 16:08:41,177 - university_chatbot - DEBUG - [2025-08-23 16:08:41.177104] Using cached admission_registration
+2025-08-23 16:08:43,056 - university_chatbot - DEBUG - [2025-08-23 16:08:43.056061] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:08:43,056 - university_chatbot - DEBUG - [2025-08-23 16:08:43.056061] Total policies loaded: 4
+2025-08-23 16:08:43,056 - university_chatbot - DEBUG - [2025-08-23 16:08:43.056061] Initialized with 4 policies loaded
+2025-08-23 16:08:43,056 - university_chatbot - DEBUG - [2025-08-23 16:08:43.056061] Chatbot initialized with 4 PDF documents
+2025-08-23 16:08:43,123 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:08:43,128 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:13:19,178 - university_chatbot - DEBUG - [2025-08-23 16:13:19.178421] Gemini AI initialized
+2025-08-23 16:13:19,179 - university_chatbot - DEBUG - [2025-08-23 16:13:19.179764] Loading policy: assessment_progression_award
+2025-08-23 16:13:19,179 - university_chatbot - DEBUG - [2025-08-23 16:13:19.179764] Using cached assessment_progression_award
+2025-08-23 16:13:23,281 - university_chatbot - DEBUG - [2025-08-23 16:13:23.281866] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:13:23,282 - university_chatbot - DEBUG - [2025-08-23 16:13:23.282868] Loading policy: student_conduct
+2025-08-23 16:13:23,282 - university_chatbot - DEBUG - [2025-08-23 16:13:23.282868] Using cached student_conduct
+2025-08-23 16:13:24,474 - university_chatbot - DEBUG - [2025-08-23 16:13:24.474661] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:13:24,474 - university_chatbot - DEBUG - [2025-08-23 16:13:24.474661] Loading policy: programmes_study
+2025-08-23 16:13:24,474 - university_chatbot - DEBUG - [2025-08-23 16:13:24.474661] Using cached programmes_study
+2025-08-23 16:13:26,331 - university_chatbot - DEBUG - [2025-08-23 16:13:26.331767] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:13:26,332 - university_chatbot - DEBUG - [2025-08-23 16:13:26.331767] Loading policy: admission_registration
+2025-08-23 16:13:26,332 - university_chatbot - DEBUG - [2025-08-23 16:13:26.332800] Using cached admission_registration
+2025-08-23 16:13:27,982 - university_chatbot - DEBUG - [2025-08-23 16:13:27.982048] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:13:27,982 - university_chatbot - DEBUG - [2025-08-23 16:13:27.982048] Total policies loaded: 4
+2025-08-23 16:13:27,982 - university_chatbot - DEBUG - [2025-08-23 16:13:27.982048] Initialized with 4 policies loaded
+2025-08-23 16:13:27,982 - university_chatbot - DEBUG - [2025-08-23 16:13:27.982048] Chatbot initialized with 4 PDF documents
+2025-08-23 16:13:28,059 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:13:28,061 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:13:28,064 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:13:32,077 - university_chatbot - DEBUG - [2025-08-23 16:13:32.077842] Gemini AI initialized
+2025-08-23 16:13:32,078 - university_chatbot - DEBUG - [2025-08-23 16:13:32.078888] Loading policy: assessment_progression_award
+2025-08-23 16:13:32,078 - university_chatbot - DEBUG - [2025-08-23 16:13:32.078888] Using cached assessment_progression_award
+2025-08-23 16:13:36,534 - university_chatbot - DEBUG - [2025-08-23 16:13:36.534934] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:13:36,534 - university_chatbot - DEBUG - [2025-08-23 16:13:36.534934] Loading policy: student_conduct
+2025-08-23 16:13:36,534 - university_chatbot - DEBUG - [2025-08-23 16:13:36.534934] Using cached student_conduct
+2025-08-23 16:13:37,749 - university_chatbot - DEBUG - [2025-08-23 16:13:37.749636] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:13:37,749 - university_chatbot - DEBUG - [2025-08-23 16:13:37.749636] Loading policy: programmes_study
+2025-08-23 16:13:37,749 - university_chatbot - DEBUG - [2025-08-23 16:13:37.749636] Using cached programmes_study
+2025-08-23 16:13:39,807 - university_chatbot - DEBUG - [2025-08-23 16:13:39.807670] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:13:39,807 - university_chatbot - DEBUG - [2025-08-23 16:13:39.807670] Loading policy: admission_registration
+2025-08-23 16:13:39,807 - university_chatbot - DEBUG - [2025-08-23 16:13:39.807670] Using cached admission_registration
+2025-08-23 16:13:41,602 - university_chatbot - DEBUG - [2025-08-23 16:13:41.602240] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:13:41,602 - university_chatbot - DEBUG - [2025-08-23 16:13:41.602240] Total policies loaded: 4
+2025-08-23 16:13:41,602 - university_chatbot - DEBUG - [2025-08-23 16:13:41.602240] Initialized with 4 policies loaded
+2025-08-23 16:13:41,602 - university_chatbot - DEBUG - [2025-08-23 16:13:41.602240] Chatbot initialized with 4 PDF documents
+2025-08-23 16:13:41,665 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:13:41,665 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:14:43,657 - university_chatbot - DEBUG - [2025-08-23 16:14:43.657220] Gemini AI initialized
+2025-08-23 16:14:43,658 - university_chatbot - DEBUG - [2025-08-23 16:14:43.658690] Loading policy: assessment_progression_award
+2025-08-23 16:14:43,658 - university_chatbot - DEBUG - [2025-08-23 16:14:43.658690] Using cached assessment_progression_award
+2025-08-23 16:14:48,102 - university_chatbot - DEBUG - [2025-08-23 16:14:48.102141] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:14:48,102 - university_chatbot - DEBUG - [2025-08-23 16:14:48.102141] Loading policy: student_conduct
+2025-08-23 16:14:48,103 - university_chatbot - DEBUG - [2025-08-23 16:14:48.103219] Using cached student_conduct
+2025-08-23 16:14:49,245 - university_chatbot - DEBUG - [2025-08-23 16:14:49.245559] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:14:49,245 - university_chatbot - DEBUG - [2025-08-23 16:14:49.245559] Loading policy: programmes_study
+2025-08-23 16:14:49,246 - university_chatbot - DEBUG - [2025-08-23 16:14:49.246939] Using cached programmes_study
+2025-08-23 16:14:51,006 - university_chatbot - DEBUG - [2025-08-23 16:14:51.006594] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:14:51,006 - university_chatbot - DEBUG - [2025-08-23 16:14:51.006594] Loading policy: admission_registration
+2025-08-23 16:14:51,007 - university_chatbot - DEBUG - [2025-08-23 16:14:51.006594] Using cached admission_registration
+2025-08-23 16:14:52,689 - university_chatbot - DEBUG - [2025-08-23 16:14:52.689347] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:14:52,689 - university_chatbot - DEBUG - [2025-08-23 16:14:52.689347] Total policies loaded: 4
+2025-08-23 16:14:52,690 - university_chatbot - DEBUG - [2025-08-23 16:14:52.690349] Initialized with 4 policies loaded
+2025-08-23 16:14:52,690 - university_chatbot - DEBUG - [2025-08-23 16:14:52.690349] Chatbot initialized with 4 PDF documents
+2025-08-23 16:14:52,761 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:14:52,761 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:14:52,766 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:14:56,889 - university_chatbot - DEBUG - [2025-08-23 16:14:56.889675] Gemini AI initialized
+2025-08-23 16:14:56,889 - university_chatbot - DEBUG - [2025-08-23 16:14:56.889675] Loading policy: assessment_progression_award
+2025-08-23 16:14:56,890 - university_chatbot - DEBUG - [2025-08-23 16:14:56.890709] Using cached assessment_progression_award
+2025-08-23 16:15:01,250 - university_chatbot - DEBUG - [2025-08-23 16:15:01.250909] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:15:01,251 - university_chatbot - DEBUG - [2025-08-23 16:15:01.251997] Loading policy: student_conduct
+2025-08-23 16:15:01,251 - university_chatbot - DEBUG - [2025-08-23 16:15:01.251997] Using cached student_conduct
+2025-08-23 16:15:02,373 - university_chatbot - DEBUG - [2025-08-23 16:15:02.373512] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:15:02,374 - university_chatbot - DEBUG - [2025-08-23 16:15:02.373512] Loading policy: programmes_study
+2025-08-23 16:15:02,374 - university_chatbot - DEBUG - [2025-08-23 16:15:02.374546] Using cached programmes_study
+2025-08-23 16:15:04,186 - university_chatbot - DEBUG - [2025-08-23 16:15:04.186371] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:15:04,186 - university_chatbot - DEBUG - [2025-08-23 16:15:04.186371] Loading policy: admission_registration
+2025-08-23 16:15:04,187 - university_chatbot - DEBUG - [2025-08-23 16:15:04.187405] Using cached admission_registration
+2025-08-23 16:15:05,864 - university_chatbot - DEBUG - [2025-08-23 16:15:05.864893] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:15:05,865 - university_chatbot - DEBUG - [2025-08-23 16:15:05.864893] Total policies loaded: 4
+2025-08-23 16:15:05,865 - university_chatbot - DEBUG - [2025-08-23 16:15:05.865927] Initialized with 4 policies loaded
+2025-08-23 16:15:05,865 - university_chatbot - DEBUG - [2025-08-23 16:15:05.865927] Chatbot initialized with 4 PDF documents
+2025-08-23 16:15:05,914 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:15:05,921 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:18:40,460 - university_chatbot - DEBUG - [2025-08-23 16:18:40.460088] Gemini AI initialized
+2025-08-23 16:18:40,464 - university_chatbot - DEBUG - [2025-08-23 16:18:40.464014] Loading policy: assessment_progression_award
+2025-08-23 16:18:40,464 - university_chatbot - DEBUG - [2025-08-23 16:18:40.464014] Using cached assessment_progression_award
+2025-08-23 16:18:44,844 - university_chatbot - DEBUG - [2025-08-23 16:18:44.844627] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:18:44,844 - university_chatbot - DEBUG - [2025-08-23 16:18:44.844627] Loading policy: student_conduct
+2025-08-23 16:18:44,844 - university_chatbot - DEBUG - [2025-08-23 16:18:44.844627] Using cached student_conduct
+2025-08-23 16:18:46,028 - university_chatbot - DEBUG - [2025-08-23 16:18:46.028599] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:18:46,028 - university_chatbot - DEBUG - [2025-08-23 16:18:46.028599] Loading policy: programmes_study
+2025-08-23 16:18:46,028 - university_chatbot - DEBUG - [2025-08-23 16:18:46.028599] Using cached programmes_study
+2025-08-23 16:18:47,882 - university_chatbot - DEBUG - [2025-08-23 16:18:47.882741] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:18:47,882 - university_chatbot - DEBUG - [2025-08-23 16:18:47.882741] Loading policy: admission_registration
+2025-08-23 16:18:47,882 - university_chatbot - DEBUG - [2025-08-23 16:18:47.882741] Using cached admission_registration
+2025-08-23 16:18:49,383 - university_chatbot - DEBUG - [2025-08-23 16:18:49.383490] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:18:49,383 - university_chatbot - DEBUG - [2025-08-23 16:18:49.383490] Total policies loaded: 4
+2025-08-23 16:18:49,383 - university_chatbot - DEBUG - [2025-08-23 16:18:49.383490] Initialized with 4 policies loaded
+2025-08-23 16:18:49,383 - university_chatbot - DEBUG - [2025-08-23 16:18:49.383490] Chatbot initialized with 4 PDF documents
+2025-08-23 16:18:49,454 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:18:49,454 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:18:49,455 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:18:53,338 - university_chatbot - DEBUG - [2025-08-23 16:18:53.338896] Gemini AI initialized
+2025-08-23 16:18:53,338 - university_chatbot - DEBUG - [2025-08-23 16:18:53.338896] Loading policy: assessment_progression_award
+2025-08-23 16:18:53,338 - university_chatbot - DEBUG - [2025-08-23 16:18:53.338896] Using cached assessment_progression_award
+2025-08-23 16:18:57,838 - university_chatbot - DEBUG - [2025-08-23 16:18:57.838946] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:18:57,838 - university_chatbot - DEBUG - [2025-08-23 16:18:57.838946] Loading policy: student_conduct
+2025-08-23 16:18:57,838 - university_chatbot - DEBUG - [2025-08-23 16:18:57.838946] Using cached student_conduct
+2025-08-23 16:18:59,112 - university_chatbot - DEBUG - [2025-08-23 16:18:59.112010] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:18:59,112 - university_chatbot - DEBUG - [2025-08-23 16:18:59.112010] Loading policy: programmes_study
+2025-08-23 16:18:59,112 - university_chatbot - DEBUG - [2025-08-23 16:18:59.112010] Using cached programmes_study
+2025-08-23 16:19:01,135 - university_chatbot - DEBUG - [2025-08-23 16:19:01.135852] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:19:01,135 - university_chatbot - DEBUG - [2025-08-23 16:19:01.135852] Loading policy: admission_registration
+2025-08-23 16:19:01,143 - university_chatbot - DEBUG - [2025-08-23 16:19:01.143865] Using cached admission_registration
+2025-08-23 16:19:02,733 - university_chatbot - DEBUG - [2025-08-23 16:19:02.733632] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:19:02,733 - university_chatbot - DEBUG - [2025-08-23 16:19:02.733632] Total policies loaded: 4
+2025-08-23 16:19:02,733 - university_chatbot - DEBUG - [2025-08-23 16:19:02.733632] Initialized with 4 policies loaded
+2025-08-23 16:19:02,733 - university_chatbot - DEBUG - [2025-08-23 16:19:02.733632] Chatbot initialized with 4 PDF documents
+2025-08-23 16:19:02,795 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:19:02,804 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:20:35,039 - university_chatbot - DEBUG - [2025-08-23 16:20:35.039081] Gemini AI initialized
+2025-08-23 16:20:35,039 - university_chatbot - DEBUG - [2025-08-23 16:20:35.039081] Loading policy: assessment_progression_award
+2025-08-23 16:20:35,040 - university_chatbot - DEBUG - [2025-08-23 16:20:35.040088] Using cached assessment_progression_award
+2025-08-23 16:20:39,439 - university_chatbot - DEBUG - [2025-08-23 16:20:39.439989] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:20:39,439 - university_chatbot - DEBUG - [2025-08-23 16:20:39.439989] Loading policy: student_conduct
+2025-08-23 16:20:39,442 - university_chatbot - DEBUG - [2025-08-23 16:20:39.442419] Using cached student_conduct
+2025-08-23 16:20:40,641 - university_chatbot - DEBUG - [2025-08-23 16:20:40.641682] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:20:40,641 - university_chatbot - DEBUG - [2025-08-23 16:20:40.641682] Loading policy: programmes_study
+2025-08-23 16:20:40,645 - university_chatbot - DEBUG - [2025-08-23 16:20:40.645414] Using cached programmes_study
+2025-08-23 16:20:42,566 - university_chatbot - DEBUG - [2025-08-23 16:20:42.566054] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:20:42,566 - university_chatbot - DEBUG - [2025-08-23 16:20:42.566054] Loading policy: admission_registration
+2025-08-23 16:20:42,566 - university_chatbot - DEBUG - [2025-08-23 16:20:42.566054] Using cached admission_registration
+2025-08-23 16:20:44,177 - university_chatbot - DEBUG - [2025-08-23 16:20:44.177069] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:20:44,177 - university_chatbot - DEBUG - [2025-08-23 16:20:44.177069] Total policies loaded: 4
+2025-08-23 16:20:44,177 - university_chatbot - DEBUG - [2025-08-23 16:20:44.177069] Initialized with 4 policies loaded
+2025-08-23 16:20:44,177 - university_chatbot - DEBUG - [2025-08-23 16:20:44.177069] Chatbot initialized with 4 PDF documents
+2025-08-23 16:22:43,867 - university_chatbot - DEBUG - [2025-08-23 16:22:43.867580] Gemini AI initialized
+2025-08-23 16:22:43,868 - university_chatbot - DEBUG - [2025-08-23 16:22:43.867580] Loading policy: assessment_progression_award
+2025-08-23 16:22:43,868 - university_chatbot - DEBUG - [2025-08-23 16:22:43.868606] Using cached assessment_progression_award
+2025-08-23 16:22:48,225 - university_chatbot - DEBUG - [2025-08-23 16:22:48.225494] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:22:48,226 - university_chatbot - DEBUG - [2025-08-23 16:22:48.226496] Loading policy: student_conduct
+2025-08-23 16:22:48,226 - university_chatbot - DEBUG - [2025-08-23 16:22:48.226496] Using cached student_conduct
+2025-08-23 16:22:49,400 - university_chatbot - DEBUG - [2025-08-23 16:22:49.400344] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:22:49,400 - university_chatbot - DEBUG - [2025-08-23 16:22:49.400344] Loading policy: programmes_study
+2025-08-23 16:22:49,401 - university_chatbot - DEBUG - [2025-08-23 16:22:49.401581] Using cached programmes_study
+2025-08-23 16:22:51,211 - university_chatbot - DEBUG - [2025-08-23 16:22:51.211781] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:22:51,211 - university_chatbot - DEBUG - [2025-08-23 16:22:51.211781] Loading policy: admission_registration
+2025-08-23 16:22:51,212 - university_chatbot - DEBUG - [2025-08-23 16:22:51.212779] Using cached admission_registration
+2025-08-23 16:22:52,894 - university_chatbot - DEBUG - [2025-08-23 16:22:52.894435] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:22:52,894 - university_chatbot - DEBUG - [2025-08-23 16:22:52.894435] Total policies loaded: 4
+2025-08-23 16:22:52,894 - university_chatbot - DEBUG - [2025-08-23 16:22:52.894435] Initialized with 4 policies loaded
+2025-08-23 16:22:52,894 - university_chatbot - DEBUG - [2025-08-23 16:22:52.894435] Chatbot initialized with 4 PDF documents
+2025-08-23 16:22:52,895 - university_chatbot - ERROR - [2025-08-23 16:22:52.895453] Error processing message: name 'user_message' is not defined
+2025-08-23 16:24:00,000 - university_chatbot - DEBUG - [2025-08-23 16:24:00.000247] Gemini AI initialized
+2025-08-23 16:24:00,001 - university_chatbot - DEBUG - [2025-08-23 16:24:00.001789] Loading policy: assessment_progression_award
+2025-08-23 16:24:00,001 - university_chatbot - DEBUG - [2025-08-23 16:24:00.001789] Using cached assessment_progression_award
+2025-08-23 16:24:04,481 - university_chatbot - DEBUG - [2025-08-23 16:24:04.481771] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:24:04,481 - university_chatbot - DEBUG - [2025-08-23 16:24:04.481771] Loading policy: student_conduct
+2025-08-23 16:24:04,481 - university_chatbot - DEBUG - [2025-08-23 16:24:04.481771] Using cached student_conduct
+2025-08-23 16:24:05,812 - university_chatbot - DEBUG - [2025-08-23 16:24:05.812263] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:24:05,812 - university_chatbot - DEBUG - [2025-08-23 16:24:05.812263] Loading policy: programmes_study
+2025-08-23 16:24:05,812 - university_chatbot - DEBUG - [2025-08-23 16:24:05.812263] Using cached programmes_study
+2025-08-23 16:24:07,848 - university_chatbot - DEBUG - [2025-08-23 16:24:07.848575] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:24:07,848 - university_chatbot - DEBUG - [2025-08-23 16:24:07.848575] Loading policy: admission_registration
+2025-08-23 16:24:07,848 - university_chatbot - DEBUG - [2025-08-23 16:24:07.848575] Using cached admission_registration
+2025-08-23 16:24:09,692 - university_chatbot - DEBUG - [2025-08-23 16:24:09.692594] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:24:09,693 - university_chatbot - DEBUG - [2025-08-23 16:24:09.693899] Total policies loaded: 4
+2025-08-23 16:24:09,693 - university_chatbot - DEBUG - [2025-08-23 16:24:09.693899] Initialized with 4 policies loaded
+2025-08-23 16:24:09,693 - university_chatbot - DEBUG - [2025-08-23 16:24:09.693899] Chatbot initialized with 4 PDF documents
+2025-08-23 16:24:09,777 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:24:09,778 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:24:09,781 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:24:13,770 - university_chatbot - DEBUG - [2025-08-23 16:24:13.770696] Gemini AI initialized
+2025-08-23 16:24:13,770 - university_chatbot - DEBUG - [2025-08-23 16:24:13.770696] Loading policy: assessment_progression_award
+2025-08-23 16:24:13,770 - university_chatbot - DEBUG - [2025-08-23 16:24:13.770696] Using cached assessment_progression_award
+2025-08-23 16:24:18,323 - university_chatbot - DEBUG - [2025-08-23 16:24:18.322034] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:24:18,323 - university_chatbot - DEBUG - [2025-08-23 16:24:18.323096] Loading policy: student_conduct
+2025-08-23 16:24:18,323 - university_chatbot - DEBUG - [2025-08-23 16:24:18.323096] Using cached student_conduct
+2025-08-23 16:24:19,563 - university_chatbot - DEBUG - [2025-08-23 16:24:19.563315] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:24:19,563 - university_chatbot - DEBUG - [2025-08-23 16:24:19.563315] Loading policy: programmes_study
+2025-08-23 16:24:19,563 - university_chatbot - DEBUG - [2025-08-23 16:24:19.563315] Using cached programmes_study
+2025-08-23 16:24:21,526 - university_chatbot - DEBUG - [2025-08-23 16:24:21.526596] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:24:21,526 - university_chatbot - DEBUG - [2025-08-23 16:24:21.526596] Loading policy: admission_registration
+2025-08-23 16:24:21,526 - university_chatbot - DEBUG - [2025-08-23 16:24:21.526596] Using cached admission_registration
+2025-08-23 16:24:23,258 - university_chatbot - DEBUG - [2025-08-23 16:24:23.258340] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:24:23,258 - university_chatbot - DEBUG - [2025-08-23 16:24:23.258340] Total policies loaded: 4
+2025-08-23 16:24:23,258 - university_chatbot - DEBUG - [2025-08-23 16:24:23.258340] Initialized with 4 policies loaded
+2025-08-23 16:24:23,258 - university_chatbot - DEBUG - [2025-08-23 16:24:23.258340] Chatbot initialized with 4 PDF documents
+2025-08-23 16:24:23,309 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:24:23,319 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:27:41,433 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Kenne\\PycharmProjects\\Flask\\PythonProjectBot6 - Copy\\app\\chatbot.py', reloading
+2025-08-23 16:27:41,720 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:27:46,474 - university_chatbot - DEBUG - [2025-08-23 16:27:46.474353] Gemini AI initialized
+2025-08-23 16:27:46,477 - university_chatbot - DEBUG - [2025-08-23 16:27:46.477715] Loading policy: assessment_progression_award
+2025-08-23 16:27:46,477 - university_chatbot - DEBUG - [2025-08-23 16:27:46.477715] Using cached assessment_progression_award
+2025-08-23 16:27:50,859 - university_chatbot - DEBUG - [2025-08-23 16:27:50.859014] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:27:50,859 - university_chatbot - DEBUG - [2025-08-23 16:27:50.859014] Loading policy: student_conduct
+2025-08-23 16:27:50,859 - university_chatbot - DEBUG - [2025-08-23 16:27:50.859014] Using cached student_conduct
+2025-08-23 16:27:52,019 - university_chatbot - DEBUG - [2025-08-23 16:27:52.019941] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:27:52,019 - university_chatbot - DEBUG - [2025-08-23 16:27:52.019941] Loading policy: programmes_study
+2025-08-23 16:27:52,019 - university_chatbot - DEBUG - [2025-08-23 16:27:52.019941] Using cached programmes_study
+2025-08-23 16:27:53,888 - university_chatbot - DEBUG - [2025-08-23 16:27:53.888514] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:27:53,888 - university_chatbot - DEBUG - [2025-08-23 16:27:53.888514] Loading policy: admission_registration
+2025-08-23 16:27:53,890 - university_chatbot - DEBUG - [2025-08-23 16:27:53.890518] Using cached admission_registration
+2025-08-23 16:27:55,578 - university_chatbot - DEBUG - [2025-08-23 16:27:55.578463] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:27:55,578 - university_chatbot - DEBUG - [2025-08-23 16:27:55.578463] Total policies loaded: 4
+2025-08-23 16:27:55,578 - university_chatbot - DEBUG - [2025-08-23 16:27:55.578463] Initialized with 4 policies loaded
+2025-08-23 16:27:55,578 - university_chatbot - DEBUG - [2025-08-23 16:27:55.578463] Chatbot initialized with 4 PDF documents
+2025-08-23 16:27:55,648 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:27:55,662 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:36:41,860 - university_chatbot - DEBUG - [2025-08-23 16:36:41.860223] Gemini AI initialized
+2025-08-23 16:36:41,862 - university_chatbot - DEBUG - [2025-08-23 16:36:41.862697] Loading policy: assessment_progression_award
+2025-08-23 16:36:41,862 - university_chatbot - DEBUG - [2025-08-23 16:36:41.862697] Using cached assessment_progression_award
+2025-08-23 16:36:45,988 - university_chatbot - DEBUG - [2025-08-23 16:36:45.988946] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:36:45,988 - university_chatbot - DEBUG - [2025-08-23 16:36:45.988946] Loading policy: student_conduct
+2025-08-23 16:36:45,995 - university_chatbot - DEBUG - [2025-08-23 16:36:45.995968] Using cached student_conduct
+2025-08-23 16:36:47,270 - university_chatbot - DEBUG - [2025-08-23 16:36:47.270706] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:36:47,279 - university_chatbot - DEBUG - [2025-08-23 16:36:47.279222] Loading policy: programmes_study
+2025-08-23 16:36:47,279 - university_chatbot - DEBUG - [2025-08-23 16:36:47.279222] Using cached programmes_study
+2025-08-23 16:36:49,236 - university_chatbot - DEBUG - [2025-08-23 16:36:49.236309] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:36:49,236 - university_chatbot - DEBUG - [2025-08-23 16:36:49.236309] Loading policy: admission_registration
+2025-08-23 16:36:49,239 - university_chatbot - DEBUG - [2025-08-23 16:36:49.239123] Using cached admission_registration
+2025-08-23 16:36:51,006 - university_chatbot - DEBUG - [2025-08-23 16:36:51.006880] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:36:51,006 - university_chatbot - DEBUG - [2025-08-23 16:36:51.006880] Total policies loaded: 4
+2025-08-23 16:36:51,006 - university_chatbot - DEBUG - [2025-08-23 16:36:51.006880] Initialized with 4 policies loaded
+2025-08-23 16:36:51,006 - university_chatbot - DEBUG - [2025-08-23 16:36:51.006880] Chatbot initialized with 4 PDF documents
+2025-08-23 16:36:51,104 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:36:51,104 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:36:51,108 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:36:54,984 - university_chatbot - DEBUG - [2025-08-23 16:36:54.984225] Gemini AI initialized
+2025-08-23 16:36:54,984 - university_chatbot - DEBUG - [2025-08-23 16:36:54.984225] Loading policy: assessment_progression_award
+2025-08-23 16:36:54,984 - university_chatbot - DEBUG - [2025-08-23 16:36:54.984225] Using cached assessment_progression_award
+2025-08-23 16:36:59,250 - university_chatbot - DEBUG - [2025-08-23 16:36:59.250653] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:36:59,250 - university_chatbot - DEBUG - [2025-08-23 16:36:59.250653] Loading policy: student_conduct
+2025-08-23 16:36:59,250 - university_chatbot - DEBUG - [2025-08-23 16:36:59.250653] Using cached student_conduct
+2025-08-23 16:37:00,343 - university_chatbot - DEBUG - [2025-08-23 16:37:00.343300] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:37:00,343 - university_chatbot - DEBUG - [2025-08-23 16:37:00.343300] Loading policy: programmes_study
+2025-08-23 16:37:00,343 - university_chatbot - DEBUG - [2025-08-23 16:37:00.343300] Using cached programmes_study
+2025-08-23 16:37:02,228 - university_chatbot - DEBUG - [2025-08-23 16:37:02.228203] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:37:02,228 - university_chatbot - DEBUG - [2025-08-23 16:37:02.228203] Loading policy: admission_registration
+2025-08-23 16:37:02,228 - university_chatbot - DEBUG - [2025-08-23 16:37:02.228203] Using cached admission_registration
+2025-08-23 16:37:03,799 - university_chatbot - DEBUG - [2025-08-23 16:37:03.799160] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:37:03,799 - university_chatbot - DEBUG - [2025-08-23 16:37:03.799160] Total policies loaded: 4
+2025-08-23 16:37:03,799 - university_chatbot - DEBUG - [2025-08-23 16:37:03.799160] Initialized with 4 policies loaded
+2025-08-23 16:37:03,799 - university_chatbot - DEBUG - [2025-08-23 16:37:03.799160] Chatbot initialized with 4 PDF documents
+2025-08-23 16:37:03,862 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:37:03,870 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:38:29,733 - university_chatbot - DEBUG - [2025-08-23 16:38:29.733193] Gemini AI initialized
+2025-08-23 16:38:29,734 - university_chatbot - DEBUG - [2025-08-23 16:38:29.734354] Loading policy: assessment_progression_award
+2025-08-23 16:38:29,734 - university_chatbot - DEBUG - [2025-08-23 16:38:29.734354] Using cached assessment_progression_award
+2025-08-23 16:38:34,257 - university_chatbot - DEBUG - [2025-08-23 16:38:34.257077] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:38:34,257 - university_chatbot - DEBUG - [2025-08-23 16:38:34.257077] Loading policy: student_conduct
+2025-08-23 16:38:34,257 - university_chatbot - DEBUG - [2025-08-23 16:38:34.257077] Using cached student_conduct
+2025-08-23 16:38:35,525 - university_chatbot - DEBUG - [2025-08-23 16:38:35.525220] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:38:35,525 - university_chatbot - DEBUG - [2025-08-23 16:38:35.525220] Loading policy: programmes_study
+2025-08-23 16:38:35,526 - university_chatbot - DEBUG - [2025-08-23 16:38:35.525220] Using cached programmes_study
+2025-08-23 16:38:37,412 - university_chatbot - DEBUG - [2025-08-23 16:38:37.412580] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:38:37,413 - university_chatbot - DEBUG - [2025-08-23 16:38:37.413695] Loading policy: admission_registration
+2025-08-23 16:38:37,413 - university_chatbot - DEBUG - [2025-08-23 16:38:37.413695] Using cached admission_registration
+2025-08-23 16:38:39,131 - university_chatbot - DEBUG - [2025-08-23 16:38:39.131107] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:38:39,131 - university_chatbot - DEBUG - [2025-08-23 16:38:39.131107] Total policies loaded: 4
+2025-08-23 16:38:39,131 - university_chatbot - DEBUG - [2025-08-23 16:38:39.131107] Initialized with 4 policies loaded
+2025-08-23 16:38:39,131 - university_chatbot - DEBUG - [2025-08-23 16:38:39.131107] Chatbot initialized with 4 PDF documents
+2025-08-23 16:38:39,205 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:38:39,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:38:39,208 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:38:43,303 - university_chatbot - DEBUG - [2025-08-23 16:38:43.303617] Gemini AI initialized
+2025-08-23 16:38:43,304 - university_chatbot - DEBUG - [2025-08-23 16:38:43.304643] Loading policy: assessment_progression_award
+2025-08-23 16:38:43,304 - university_chatbot - DEBUG - [2025-08-23 16:38:43.304643] Using cached assessment_progression_award
+2025-08-23 16:38:47,610 - university_chatbot - DEBUG - [2025-08-23 16:38:47.610296] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:38:47,611 - university_chatbot - DEBUG - [2025-08-23 16:38:47.611811] Loading policy: student_conduct
+2025-08-23 16:38:47,611 - university_chatbot - DEBUG - [2025-08-23 16:38:47.611811] Using cached student_conduct
+2025-08-23 16:38:48,877 - university_chatbot - DEBUG - [2025-08-23 16:38:48.877957] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:38:48,877 - university_chatbot - DEBUG - [2025-08-23 16:38:48.877957] Loading policy: programmes_study
+2025-08-23 16:38:48,877 - university_chatbot - DEBUG - [2025-08-23 16:38:48.877957] Using cached programmes_study
+2025-08-23 16:38:50,726 - university_chatbot - DEBUG - [2025-08-23 16:38:50.726763] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:38:50,726 - university_chatbot - DEBUG - [2025-08-23 16:38:50.726763] Loading policy: admission_registration
+2025-08-23 16:38:50,726 - university_chatbot - DEBUG - [2025-08-23 16:38:50.726763] Using cached admission_registration
+2025-08-23 16:38:52,582 - university_chatbot - DEBUG - [2025-08-23 16:38:52.582661] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:38:52,582 - university_chatbot - DEBUG - [2025-08-23 16:38:52.582661] Total policies loaded: 4
+2025-08-23 16:38:52,582 - university_chatbot - DEBUG - [2025-08-23 16:38:52.582661] Initialized with 4 policies loaded
+2025-08-23 16:38:52,582 - university_chatbot - DEBUG - [2025-08-23 16:38:52.582661] Chatbot initialized with 4 PDF documents
+2025-08-23 16:38:52,630 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:38:52,662 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:41:02,859 - university_chatbot - DEBUG - [2025-08-23 16:41:02.858513] Gemini AI initialized
+2025-08-23 16:41:02,859 - university_chatbot - DEBUG - [2025-08-23 16:41:02.859816] Loading policy: assessment_progression_award
+2025-08-23 16:41:02,859 - university_chatbot - DEBUG - [2025-08-23 16:41:02.859816] Using cached assessment_progression_award
+2025-08-23 16:41:07,402 - university_chatbot - DEBUG - [2025-08-23 16:41:07.402846] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:41:07,402 - university_chatbot - DEBUG - [2025-08-23 16:41:07.402846] Loading policy: student_conduct
+2025-08-23 16:41:07,402 - university_chatbot - DEBUG - [2025-08-23 16:41:07.402846] Using cached student_conduct
+2025-08-23 16:41:08,646 - university_chatbot - DEBUG - [2025-08-23 16:41:08.646786] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:41:08,646 - university_chatbot - DEBUG - [2025-08-23 16:41:08.646786] Loading policy: programmes_study
+2025-08-23 16:41:08,646 - university_chatbot - DEBUG - [2025-08-23 16:41:08.646786] Using cached programmes_study
+2025-08-23 16:41:10,586 - university_chatbot - DEBUG - [2025-08-23 16:41:10.586761] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:41:10,586 - university_chatbot - DEBUG - [2025-08-23 16:41:10.586761] Loading policy: admission_registration
+2025-08-23 16:41:10,587 - university_chatbot - DEBUG - [2025-08-23 16:41:10.587794] Using cached admission_registration
+2025-08-23 16:41:12,261 - university_chatbot - DEBUG - [2025-08-23 16:41:12.261531] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:41:12,261 - university_chatbot - DEBUG - [2025-08-23 16:41:12.261531] Total policies loaded: 4
+2025-08-23 16:41:12,261 - university_chatbot - DEBUG - [2025-08-23 16:41:12.261531] Initialized with 4 policies loaded
+2025-08-23 16:41:12,261 - university_chatbot - DEBUG - [2025-08-23 16:41:12.261531] Chatbot initialized with 4 PDF documents
+2025-08-23 16:41:12,325 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:41:12,325 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:41:12,329 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:41:16,166 - university_chatbot - DEBUG - [2025-08-23 16:41:16.166921] Gemini AI initialized
+2025-08-23 16:41:16,167 - university_chatbot - DEBUG - [2025-08-23 16:41:16.167919] Loading policy: assessment_progression_award
+2025-08-23 16:41:16,167 - university_chatbot - DEBUG - [2025-08-23 16:41:16.167919] Using cached assessment_progression_award
+2025-08-23 16:41:20,734 - university_chatbot - DEBUG - [2025-08-23 16:41:20.734813] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 16:41:20,734 - university_chatbot - DEBUG - [2025-08-23 16:41:20.734813] Loading policy: student_conduct
+2025-08-23 16:41:20,734 - university_chatbot - DEBUG - [2025-08-23 16:41:20.734813] Using cached student_conduct
+2025-08-23 16:41:21,896 - university_chatbot - DEBUG - [2025-08-23 16:41:21.895815] Successfully loaded student_conduct: 29178 characters
+2025-08-23 16:41:21,896 - university_chatbot - DEBUG - [2025-08-23 16:41:21.896824] Loading policy: programmes_study
+2025-08-23 16:41:21,896 - university_chatbot - DEBUG - [2025-08-23 16:41:21.896824] Using cached programmes_study
+2025-08-23 16:41:23,734 - university_chatbot - DEBUG - [2025-08-23 16:41:23.734324] Successfully loaded programmes_study: 39194 characters
+2025-08-23 16:41:23,734 - university_chatbot - DEBUG - [2025-08-23 16:41:23.734324] Loading policy: admission_registration
+2025-08-23 16:41:23,734 - university_chatbot - DEBUG - [2025-08-23 16:41:23.734324] Using cached admission_registration
+2025-08-23 16:41:25,451 - university_chatbot - DEBUG - [2025-08-23 16:41:25.451909] Successfully loaded admission_registration: 37865 characters
+2025-08-23 16:41:25,451 - university_chatbot - DEBUG - [2025-08-23 16:41:25.451909] Total policies loaded: 4
+2025-08-23 16:41:25,451 - university_chatbot - DEBUG - [2025-08-23 16:41:25.451909] Initialized with 4 policies loaded
+2025-08-23 16:41:25,451 - university_chatbot - DEBUG - [2025-08-23 16:41:25.451909] Chatbot initialized with 4 PDF documents
+2025-08-23 16:41:25,500 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:41:25,507 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:50:58,092 - university_chatbot - DEBUG - [2025-08-23 16:50:58.092327] Loaded 4 hardcoded policies
+2025-08-23 16:50:58,161 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:50:58,162 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:50:58,167 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:51:02,400 - university_chatbot - DEBUG - [2025-08-23 16:51:02.400155] Loaded 4 hardcoded policies
+2025-08-23 16:51:02,474 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:51:02,483 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:52:11,950 - university_chatbot - DEBUG - [2025-08-23 16:52:11.950475] Loaded 4 hardcoded policies
+2025-08-23 16:52:12,031 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:52:12,031 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:52:12,034 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:52:15,998 - university_chatbot - DEBUG - [2025-08-23 16:52:15.997173] Loaded 4 hardcoded policies
+2025-08-23 16:52:16,048 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:52:16,054 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:53:47,993 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:53:47,994 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:53:47,997 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:53:51,898 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:53:51,904 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:56:58,888 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 16:56:58,888 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 16:56:58,892 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 16:57:02,699 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 16:57:02,707 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 16:59:59,954 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 16:59:59] "GET / HTTP/1.1" 200 -
+2025-08-23 17:00:01,639 - university_chatbot - DEBUG - [2025-08-23 17:00:01.639472] Chat endpoint called
+2025-08-23 17:00:01,639 - university_chatbot - DEBUG - [2025-08-23 17:00:01.639472] Received message: 'When are examination periods?'
+2025-08-23 17:00:01,640 - university_chatbot - DEBUG - [2025-08-23 17:00:01.640521] Calling chatbot.process_message...
+2025-08-23 17:00:02,061 - university_chatbot - DEBUG - [2025-08-23 17:00:02.061099] Chatbot response: 'Error: 429 You exceeded your current quota, please check your plan and billing details. For more inf...'
+2025-08-23 17:00:02,061 - university_chatbot - DEBUG - [2025-08-23 17:00:02.061099] Returning response to frontend
+2025-08-23 17:00:02,065 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:00:02] "POST /chat HTTP/1.1" 200 -
+2025-08-23 17:00:35,355 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:00:35] "GET / HTTP/1.1" 200 -
+2025-08-23 17:00:37,541 - university_chatbot - DEBUG - [2025-08-23 17:00:37.541483] Chat endpoint called
+2025-08-23 17:00:37,542 - university_chatbot - DEBUG - [2025-08-23 17:00:37.541483] Received message: 'When are examination periods?'
+2025-08-23 17:00:37,542 - university_chatbot - DEBUG - [2025-08-23 17:00:37.542632] Calling chatbot.process_message...
+2025-08-23 17:00:37,798 - university_chatbot - DEBUG - [2025-08-23 17:00:37.798752] Chatbot response: 'Error: 429 You exceeded your current quota, please check your plan and billing details. For more inf...'
+2025-08-23 17:00:37,798 - university_chatbot - DEBUG - [2025-08-23 17:00:37.798752] Returning response to frontend
+2025-08-23 17:00:37,802 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:00:37] "POST /chat HTTP/1.1" 200 -
+2025-08-23 17:00:40,683 - university_chatbot - DEBUG - [2025-08-23 17:00:40.683934] Chat endpoint called
+2025-08-23 17:00:40,683 - university_chatbot - DEBUG - [2025-08-23 17:00:40.683934] Received message: 'billing?'
+2025-08-23 17:00:40,683 - university_chatbot - DEBUG - [2025-08-23 17:00:40.683934] Calling chatbot.process_message...
+2025-08-23 17:00:40,832 - university_chatbot - DEBUG - [2025-08-23 17:00:40.832007] Chatbot response: 'Error: 429 You exceeded your current quota, please check your plan and billing details. For more inf...'
+2025-08-23 17:00:40,832 - university_chatbot - DEBUG - [2025-08-23 17:00:40.832007] Returning response to frontend
+2025-08-23 17:00:40,838 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:00:40] "POST /chat HTTP/1.1" 200 -
+2025-08-23 17:01:24,699 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 17:01:24,699 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 17:01:24,704 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 17:01:28,649 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 17:01:28,657 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 17:01:28,710 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:01:28] "GET / HTTP/1.1" 200 -
+2025-08-23 17:01:30,876 - university_chatbot - DEBUG - [2025-08-23 17:01:30.876348] Chat endpoint called
+2025-08-23 17:01:30,876 - university_chatbot - DEBUG - [2025-08-23 17:01:30.876348] Received message: 'When are examination periods?'
+2025-08-23 17:01:30,876 - university_chatbot - DEBUG - [2025-08-23 17:01:30.876348] Calling chatbot.process_message...
+2025-08-23 17:01:31,177 - university_chatbot - DEBUG - [2025-08-23 17:01:31.177044] Chatbot response: 'Error: 429 You exceeded your current quota, please check your plan and billing details. For more inf...'
+2025-08-23 17:01:31,177 - university_chatbot - DEBUG - [2025-08-23 17:01:31.177044] Returning response to frontend
+2025-08-23 17:01:31,181 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:01:31] "POST /chat HTTP/1.1" 200 -
+2025-08-23 17:12:50,324 - university_chatbot - DEBUG - [2025-08-23 17:12:50.322985] OpenAI client initialized
+2025-08-23 17:12:50,328 - university_chatbot - DEBUG - [2025-08-23 17:12:50.328018] Loading policy: assessment_progression_award
+2025-08-23 17:12:50,328 - university_chatbot - DEBUG - [2025-08-23 17:12:50.328018] Using cached assessment_progression_award
+2025-08-23 17:12:54,907 - university_chatbot - DEBUG - [2025-08-23 17:12:54.907603] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 17:12:54,908 - university_chatbot - DEBUG - [2025-08-23 17:12:54.908740] Loading policy: student_conduct
+2025-08-23 17:12:54,908 - university_chatbot - DEBUG - [2025-08-23 17:12:54.908740] Using cached student_conduct
+2025-08-23 17:12:56,048 - university_chatbot - DEBUG - [2025-08-23 17:12:56.048240] Successfully loaded student_conduct: 29178 characters
+2025-08-23 17:12:56,049 - university_chatbot - DEBUG - [2025-08-23 17:12:56.049272] Loading policy: programmes_study
+2025-08-23 17:12:56,049 - university_chatbot - DEBUG - [2025-08-23 17:12:56.049272] Using cached programmes_study
+2025-08-23 17:12:58,052 - university_chatbot - DEBUG - [2025-08-23 17:12:58.052933] Successfully loaded programmes_study: 39194 characters
+2025-08-23 17:12:58,052 - university_chatbot - DEBUG - [2025-08-23 17:12:58.052933] Loading policy: admission_registration
+2025-08-23 17:12:58,052 - university_chatbot - DEBUG - [2025-08-23 17:12:58.052933] Using cached admission_registration
+2025-08-23 17:12:59,751 - university_chatbot - DEBUG - [2025-08-23 17:12:59.751925] Successfully loaded admission_registration: 37865 characters
+2025-08-23 17:12:59,751 - university_chatbot - DEBUG - [2025-08-23 17:12:59.751925] Total policies loaded: 4
+2025-08-23 17:12:59,751 - university_chatbot - DEBUG - [2025-08-23 17:12:59.751925] Initialized with 4 policies loaded
+2025-08-23 17:12:59,751 - university_chatbot - DEBUG - [2025-08-23 17:12:59.751925] Chatbot initialized with 4 PDF documents
+2025-08-23 17:12:59,822 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 17:12:59,822 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 17:12:59,826 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 17:13:06,003 - university_chatbot - DEBUG - [2025-08-23 17:13:06.003715] OpenAI client initialized
+2025-08-23 17:13:06,004 - university_chatbot - DEBUG - [2025-08-23 17:13:06.004712] Loading policy: assessment_progression_award
+2025-08-23 17:13:06,004 - university_chatbot - DEBUG - [2025-08-23 17:13:06.004712] Using cached assessment_progression_award
+2025-08-23 17:13:10,822 - university_chatbot - DEBUG - [2025-08-23 17:13:10.822914] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 17:13:10,822 - university_chatbot - DEBUG - [2025-08-23 17:13:10.822914] Loading policy: student_conduct
+2025-08-23 17:13:10,822 - university_chatbot - DEBUG - [2025-08-23 17:13:10.822914] Using cached student_conduct
+2025-08-23 17:13:12,036 - university_chatbot - DEBUG - [2025-08-23 17:13:12.036226] Successfully loaded student_conduct: 29178 characters
+2025-08-23 17:13:12,038 - university_chatbot - DEBUG - [2025-08-23 17:13:12.036226] Loading policy: programmes_study
+2025-08-23 17:13:12,038 - university_chatbot - DEBUG - [2025-08-23 17:13:12.038230] Using cached programmes_study
+2025-08-23 17:13:13,989 - university_chatbot - DEBUG - [2025-08-23 17:13:13.989184] Successfully loaded programmes_study: 39194 characters
+2025-08-23 17:13:13,989 - university_chatbot - DEBUG - [2025-08-23 17:13:13.989184] Loading policy: admission_registration
+2025-08-23 17:13:13,989 - university_chatbot - DEBUG - [2025-08-23 17:13:13.989184] Using cached admission_registration
+2025-08-23 17:13:15,779 - university_chatbot - DEBUG - [2025-08-23 17:13:15.779517] Successfully loaded admission_registration: 37865 characters
+2025-08-23 17:13:15,795 - university_chatbot - DEBUG - [2025-08-23 17:13:15.795276] Total policies loaded: 4
+2025-08-23 17:13:15,795 - university_chatbot - DEBUG - [2025-08-23 17:13:15.795276] Initialized with 4 policies loaded
+2025-08-23 17:13:15,795 - university_chatbot - DEBUG - [2025-08-23 17:13:15.795276] Chatbot initialized with 4 PDF documents
+2025-08-23 17:13:15,842 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 17:13:15,842 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 17:13:15,906 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:13:15] "GET / HTTP/1.1" 200 -
+2025-08-23 17:13:24,820 - university_chatbot - DEBUG - [2025-08-23 17:13:24.820492] OpenAI client initialized
+2025-08-23 17:13:24,821 - university_chatbot - DEBUG - [2025-08-23 17:13:24.821511] Loading policy: assessment_progression_award
+2025-08-23 17:13:24,821 - university_chatbot - DEBUG - [2025-08-23 17:13:24.821511] Using cached assessment_progression_award
+2025-08-23 17:13:29,511 - university_chatbot - DEBUG - [2025-08-23 17:13:29.511788] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 17:13:29,511 - university_chatbot - DEBUG - [2025-08-23 17:13:29.511788] Loading policy: student_conduct
+2025-08-23 17:13:29,512 - university_chatbot - DEBUG - [2025-08-23 17:13:29.512821] Using cached student_conduct
+2025-08-23 17:13:30,786 - university_chatbot - DEBUG - [2025-08-23 17:13:30.786594] Successfully loaded student_conduct: 29178 characters
+2025-08-23 17:13:30,786 - university_chatbot - DEBUG - [2025-08-23 17:13:30.786594] Loading policy: programmes_study
+2025-08-23 17:13:30,786 - university_chatbot - DEBUG - [2025-08-23 17:13:30.786594] Using cached programmes_study
+2025-08-23 17:13:32,802 - university_chatbot - DEBUG - [2025-08-23 17:13:32.802702] Successfully loaded programmes_study: 39194 characters
+2025-08-23 17:13:32,803 - university_chatbot - DEBUG - [2025-08-23 17:13:32.803712] Loading policy: admission_registration
+2025-08-23 17:13:32,803 - university_chatbot - DEBUG - [2025-08-23 17:13:32.803712] Using cached admission_registration
+2025-08-23 17:13:34,554 - university_chatbot - DEBUG - [2025-08-23 17:13:34.554630] Successfully loaded admission_registration: 37865 characters
+2025-08-23 17:13:34,554 - university_chatbot - DEBUG - [2025-08-23 17:13:34.554630] Total policies loaded: 4
+2025-08-23 17:13:34,554 - university_chatbot - DEBUG - [2025-08-23 17:13:34.554630] Initialized with 4 policies loaded
+2025-08-23 17:13:34,555 - university_chatbot - DEBUG - [2025-08-23 17:13:34.555779] Chatbot initialized with 4 PDF documents
+2025-08-23 17:13:34,625 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 17:13:34,625 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 17:13:34,629 - werkzeug - INFO -  * Restarting with stat
+2025-08-23 17:13:40,519 - university_chatbot - DEBUG - [2025-08-23 17:13:40.519218] OpenAI client initialized
+2025-08-23 17:13:40,519 - university_chatbot - DEBUG - [2025-08-23 17:13:40.519218] Loading policy: assessment_progression_award
+2025-08-23 17:13:40,520 - university_chatbot - DEBUG - [2025-08-23 17:13:40.520251] Using cached assessment_progression_award
+2025-08-23 17:13:45,101 - university_chatbot - DEBUG - [2025-08-23 17:13:45.101066] Successfully loaded assessment_progression_award: 97538 characters
+2025-08-23 17:13:45,101 - university_chatbot - DEBUG - [2025-08-23 17:13:45.101066] Loading policy: student_conduct
+2025-08-23 17:13:45,102 - university_chatbot - DEBUG - [2025-08-23 17:13:45.102098] Using cached student_conduct
+2025-08-23 17:13:46,367 - university_chatbot - DEBUG - [2025-08-23 17:13:46.367890] Successfully loaded student_conduct: 29178 characters
+2025-08-23 17:13:46,368 - university_chatbot - DEBUG - [2025-08-23 17:13:46.368923] Loading policy: programmes_study
+2025-08-23 17:13:46,368 - university_chatbot - DEBUG - [2025-08-23 17:13:46.368923] Using cached programmes_study
+2025-08-23 17:13:48,357 - university_chatbot - DEBUG - [2025-08-23 17:13:48.357942] Successfully loaded programmes_study: 39194 characters
+2025-08-23 17:13:48,357 - university_chatbot - DEBUG - [2025-08-23 17:13:48.357942] Loading policy: admission_registration
+2025-08-23 17:13:48,357 - university_chatbot - DEBUG - [2025-08-23 17:13:48.357942] Using cached admission_registration
+2025-08-23 17:13:50,099 - university_chatbot - DEBUG - [2025-08-23 17:13:50.099834] Successfully loaded admission_registration: 37865 characters
+2025-08-23 17:13:50,100 - university_chatbot - DEBUG - [2025-08-23 17:13:50.099834] Total policies loaded: 4
+2025-08-23 17:13:50,100 - university_chatbot - DEBUG - [2025-08-23 17:13:50.100892] Initialized with 4 policies loaded
+2025-08-23 17:13:50,100 - university_chatbot - DEBUG - [2025-08-23 17:13:50.100892] Chatbot initialized with 4 PDF documents
+2025-08-23 17:13:50,150 - werkzeug - WARNING -  * Debugger is active!
+2025-08-23 17:13:50,157 - werkzeug - INFO -  * Debugger PIN: 121-932-473
+2025-08-23 17:13:53,942 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:13:53] "GET / HTTP/1.1" 200 -
+2025-08-23 17:13:56,409 - university_chatbot - DEBUG - [2025-08-23 17:13:56.409202] Processing message: 'When are examination periods?'
+2025-08-23 17:13:56,410 - university_chatbot - DEBUG - [2025-08-23 17:13:56.410677] Searching for: 'When are examination periods?' in 4 policies
+2025-08-23 17:13:56,412 - university_chatbot - DEBUG - [2025-08-23 17:13:56.411693] No match in policy: assessment_progression_award
+2025-08-23 17:13:56,412 - university_chatbot - DEBUG - [2025-08-23 17:13:56.412861] No match in policy: student_conduct
+2025-08-23 17:13:56,413 - university_chatbot - DEBUG - [2025-08-23 17:13:56.413904] No match in policy: programmes_study
+2025-08-23 17:13:56,413 - university_chatbot - DEBUG - [2025-08-23 17:13:56.413904] No match in policy: admission_registration
+2025-08-23 17:13:56,413 - university_chatbot - DEBUG - [2025-08-23 17:13:56.413904] Search returned 0 results
+2025-08-23 17:13:56,413 - university_chatbot - DEBUG - [2025-08-23 17:13:56.413904] Search found 0 results
+2025-08-23 17:13:56,414 - university_chatbot - DEBUG - [2025-08-23 17:13:56.414913] No search results found
+2025-08-23 17:13:56,414 - university_chatbot - DEBUG - [2025-08-23 17:13:56.414913] Sending request to OpenAI
+2025-08-23 17:13:56,424 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e612ce42-dec2-43ec-8fcd-e98fe2e7b8f8', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: When are examination periods?\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:13:56,756 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:13:56,756 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-23 17:13:56,874 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A4A0664D70>
+2025-08-23 17:13:56,874 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002A4A05F9F50> server_hostname='api.openai.com' timeout=5.0
+2025-08-23 17:13:56,920 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A4A0664B00>
+2025-08-23 17:13:56,921 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:56,923 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:13:56,923 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:13:56,924 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:13:56,924 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:57,498 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:13:56 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_fd95c681e1a1420393b3a92d90a93d71'), (b'x-envoy-upstream-service-time', b'125'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=6In9PXdQWWyJ7ur7VUqywbXlsTUsfI2Pj2XbFpWEyq4-1755965636-1.0.1.1-qPeZ3U93DzHWvbS_LhXl_6JqKR5mfozgXwv211_7yCF7tRN8X37OQlPxjHfu34g2ZS0Ch80sIM3HCJ4THUEKiadHoYVHlt1RcpNcLXQ6CWQ; path=/; expires=Sat, 23-Aug-25 16:43:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=2xnqAqIoXa1KJjiPkRdm_hsqj10ep.RiwipY_33cQOA-1755965636366-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be6683865293c-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:13:57,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:13:57,501 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:13:57,501 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:13:57,501 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:13:57,501 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:13:57,502 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sat, 23 Aug 2025 16:13:56 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_fd95c681e1a1420393b3a92d90a93d71'), ('x-envoy-upstream-service-time', '125'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=6In9PXdQWWyJ7ur7VUqywbXlsTUsfI2Pj2XbFpWEyq4-1755965636-1.0.1.1-qPeZ3U93DzHWvbS_LhXl_6JqKR5mfozgXwv211_7yCF7tRN8X37OQlPxjHfu34g2ZS0Ch80sIM3HCJ4THUEKiadHoYVHlt1RcpNcLXQ6CWQ; path=/; expires=Sat, 23-Aug-25 16:43:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=2xnqAqIoXa1KJjiPkRdm_hsqj10ep.RiwipY_33cQOA-1755965636366-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '973be6683865293c-LHR'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-08-23 17:13:57,502 - openai._base_client - DEBUG - request_id: req_fd95c681e1a1420393b3a92d90a93d71
+2025-08-23 17:13:57,502 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:13:57,511 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-08-23 17:13:57,512 - openai._base_client - DEBUG - 2 retries left
+2025-08-23 17:13:57,512 - openai._base_client - INFO - Retrying request to /chat/completions in 0.381452 seconds
+2025-08-23 17:13:57,894 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e612ce42-dec2-43ec-8fcd-e98fe2e7b8f8', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: When are examination periods?\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:13:57,897 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:13:57,897 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:57,898 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:13:57,898 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:13:57,899 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:13:57,899 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:58,722 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:13:57 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_0c65efe296af42598d92ead82a1a8759'), (b'x-envoy-upstream-service-time', b'241'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be66e6c78293c-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:13:58,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:13:58,723 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:13:58,724 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:13:58,724 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:13:58,724 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:13:58,724 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 23 Aug 2025 16:13:57 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_0c65efe296af42598d92ead82a1a8759', 'x-envoy-upstream-service-time': '241', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '973be66e6c78293c-LHR', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-23 17:13:58,724 - openai._base_client - DEBUG - request_id: req_0c65efe296af42598d92ead82a1a8759
+2025-08-23 17:13:58,725 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:13:58,726 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-08-23 17:13:58,726 - openai._base_client - DEBUG - 1 retry left
+2025-08-23 17:13:58,726 - openai._base_client - INFO - Retrying request to /chat/completions in 0.914882 seconds
+2025-08-23 17:13:59,642 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e612ce42-dec2-43ec-8fcd-e98fe2e7b8f8', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: When are examination periods?\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:13:59,644 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:13:59,644 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:59,646 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:13:59,646 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:13:59,646 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:13:59,646 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:13:59,830 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:13:58 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_6a71156f71f64ce5baeee203804a358d'), (b'x-envoy-upstream-service-time', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be6795905293c-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:13:59,830 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:13:59,830 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:13:59,830 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:13:59,830 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:13:59,830 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:13:59,832 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 23 Aug 2025 16:13:58 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_6a71156f71f64ce5baeee203804a358d', 'x-envoy-upstream-service-time': '8', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '973be6795905293c-LHR', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-23 17:13:59,832 - openai._base_client - DEBUG - request_id: req_6a71156f71f64ce5baeee203804a358d
+2025-08-23 17:13:59,832 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:13:59,834 - openai._base_client - DEBUG - Re-raising status error
+2025-08-23 17:13:59,845 - university_chatbot - ERROR - [2025-08-23 17:13:59.845647] Error processing message: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-23 17:13:59,854 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:13:59] "POST /chat HTTP/1.1" 200 -
+2025-08-23 17:14:11,406 - university_chatbot - DEBUG - [2025-08-23 17:14:11.406679] Processing message: 'do you have pdf files'
+2025-08-23 17:14:11,406 - university_chatbot - DEBUG - [2025-08-23 17:14:11.406679] Searching for: 'do you have pdf files' in 4 policies
+2025-08-23 17:14:11,406 - university_chatbot - DEBUG - [2025-08-23 17:14:11.406679] No match in policy: assessment_progression_award
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] No match in policy: student_conduct
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] No match in policy: programmes_study
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] No match in policy: admission_registration
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] Search returned 0 results
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] Search found 0 results
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] No search results found
+2025-08-23 17:14:11,410 - university_chatbot - DEBUG - [2025-08-23 17:14:11.410296] Sending request to OpenAI
+2025-08-23 17:14:11,415 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5f8253a7-b7bc-4355-a1bc-20fb8b4b64c0', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: do you have pdf files\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:14:11,415 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:14:11,417 - httpcore.connection - DEBUG - close.started
+2025-08-23 17:14:11,420 - httpcore.connection - DEBUG - close.complete
+2025-08-23 17:14:11,420 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-23 17:14:11,465 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A4A0664E90>
+2025-08-23 17:14:11,465 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002A4A05F9F50> server_hostname='api.openai.com' timeout=5.0
+2025-08-23 17:14:11,489 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A4A0664EF0>
+2025-08-23 17:14:11,489 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:11,489 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:14:11,492 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:14:11,492 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:14:11,492 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:12,030 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:14:10 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_b30ce12be19d417f952bca6a6c97146b'), (b'x-envoy-upstream-service-time', b'109'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be6c34a1763da-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:14:12,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:14:12,033 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:14:12,033 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:14:12,033 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:14:12,033 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:14:12,035 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 23 Aug 2025 16:14:10 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_b30ce12be19d417f952bca6a6c97146b', 'x-envoy-upstream-service-time': '109', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '973be6c34a1763da-LHR', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-23 17:14:12,035 - openai._base_client - DEBUG - request_id: req_b30ce12be19d417f952bca6a6c97146b
+2025-08-23 17:14:12,035 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:14:12,037 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-08-23 17:14:12,037 - openai._base_client - DEBUG - 2 retries left
+2025-08-23 17:14:12,037 - openai._base_client - INFO - Retrying request to /chat/completions in 0.488667 seconds
+2025-08-23 17:14:12,528 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5f8253a7-b7bc-4355-a1bc-20fb8b4b64c0', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: do you have pdf files\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:14:12,530 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:14:12,530 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:12,531 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:14:12,531 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:14:12,531 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:14:12,531 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:12,686 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:14:11 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_0c87bcb4d7c5427d966f781526ca4fe6'), (b'x-envoy-upstream-service-time', b'3'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be6c9ee6c63da-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:14:12,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:14:12,688 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:14:12,688 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:14:12,688 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:14:12,688 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:14:12,688 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 23 Aug 2025 16:14:11 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_0c87bcb4d7c5427d966f781526ca4fe6', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '973be6c9ee6c63da-LHR', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-23 17:14:12,688 - openai._base_client - DEBUG - request_id: req_0c87bcb4d7c5427d966f781526ca4fe6
+2025-08-23 17:14:12,688 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:14:12,688 - openai._base_client - DEBUG - Retrying due to status code 429
+2025-08-23 17:14:12,688 - openai._base_client - DEBUG - 1 retry left
+2025-08-23 17:14:12,688 - openai._base_client - INFO - Retrying request to /chat/completions in 0.919656 seconds
+2025-08-23 17:14:13,614 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5f8253a7-b7bc-4355-a1bc-20fb8b4b64c0', 'json_data': {'messages': [{'role': 'system', 'content': 'You are a University of Birmingham support chatbot.'}, {'role': 'user', 'content': "I couldn't find specific policy information related to this question: do you have pdf files\n\nPlease provide a general helpful response and suggest the student contact the university directly for specific policy information."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 500, 'temperature': 0.7}}
+2025-08-23 17:14:13,614 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-23 17:14:13,614 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:13,614 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-08-23 17:14:13,614 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-23 17:14:13,614 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-08-23 17:14:13,614 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-23 17:14:14,718 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 23 Aug 2025 16:14:13 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_2066b85c6aab454fb89252c9bbde91c9'), (b'x-envoy-upstream-service-time', b'113'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'973be6d08b2763da-LHR'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-23 17:14:14,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 17:14:14,718 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-23 17:14:14,720 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-08-23 17:14:14,720 - httpcore.http11 - DEBUG - response_closed.started
+2025-08-23 17:14:14,720 - httpcore.http11 - DEBUG - response_closed.complete
+2025-08-23 17:14:14,721 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 23 Aug 2025 16:14:13 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_2066b85c6aab454fb89252c9bbde91c9', 'x-envoy-upstream-service-time': '113', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '973be6d08b2763da-LHR', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-23 17:14:14,721 - openai._base_client - DEBUG - request_id: req_2066b85c6aab454fb89252c9bbde91c9
+2025-08-23 17:14:14,721 - openai._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    response.raise_for_status()
+  File "C:\Users\Kenne\miniconda3\envs\SW2-Env\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2025-08-23 17:14:14,721 - openai._base_client - DEBUG - Re-raising status error
+2025-08-23 17:14:14,727 - university_chatbot - ERROR - [2025-08-23 17:14:14.727585] Error processing message: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-23 17:14:14,730 - werkzeug - INFO - 127.0.0.1 - - [23/Aug/2025 17:14:14] "POST /chat HTTP/1.1" 200 -

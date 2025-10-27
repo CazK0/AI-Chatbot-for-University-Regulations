@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}University of Birmingham Assistant Chatbot{% endblock %}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #003f5c;
+            --secondary-color: #bc5090;
+            --accent-color: #ff6361;
+            --light-bg: #f8f9fa;
+            --dark-text: #2c3e50;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #4a90e2;
+            --secondary-color: #d670aa;
+            --accent-color: #ff8381;
+            --light-bg: #1a1a1a;
+            --dark-text: #e0e0e0;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            --hover-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: var(--dark-text);
+            transition: all 0.3s ease;
+            margin: 0;
+            padding: 0;
+        }
+
+        [data-theme="dark"] body {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #e0e0e0;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, var(--primary-color) 0%, #2c5282 100%);
+            box-shadow: var(--card-shadow);
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: white !important;
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover {
+            transform: translateY(-2px);
+            color: white !important;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+            margin: 0 10px;
+            padding: 8px 16px !important;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white !important;
+            transform: translateY(-1px);
+        }
+
+        .nav-link i {
+            margin-right: 8px;
+        }
+
+        .theme-toggle {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: rotate(15deg) scale(1.05);
+        }
+
+        .main-container {
+            padding: 2rem 1rem;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        [data-theme="dark"] .card {
+            background: #2d2d2d !important;
+            border: 1px solid #444 !important;
+        }
+
+        .card:hover {
+            box-shadow: var(--hover-shadow);
+            transform: translateY(-5px);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        [data-theme="dark"] h1,
+        [data-theme="dark"] h2,
+        [data-theme="dark"] h3,
+        [data-theme="dark"] h4,
+        [data-theme="dark"] h5,
+        [data-theme="dark"] h6 {
+            color: #e0e0e0 !important;
+        }
+
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+            border-radius: 2px;
+        }
+
+        [data-theme="dark"] p,
+        [data-theme="dark"] li,
+        [data-theme="dark"] span {
+            color: #e0e0e0 !important;
+        }
+
+        /* Fix for Bootstrap's text-muted in dark mode */
+        [data-theme="dark"] .text-muted {
+            color: #e0e0e0 !important;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, var(--primary-color), #2c5282);
+            border: none;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(45deg, #2c5282, var(--primary-color));
+        }
+
+        [data-theme="dark"] .btn-primary {
+            background: linear-gradient(45deg, #4a90e2, #2c5282);
+            border: none;
+        }
+
+        .btn-outline-primary,
+        .btn-outline-secondary {
+            border-radius: 25px;
+            padding: 8px 20px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+
+        .btn-outline-primary:hover {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        [data-theme="dark"] .btn-outline-primary {
+            color: #4a90e2 !important;
+            border-color: #4a90e2 !important;
+        }
+
+        [data-theme="dark"] .btn-outline-secondary {
+            color: #d670aa !important;
+            border-color: #d670aa !important;
+        }
+
+        .alert-info {
+            background-color: rgba(52, 144, 220, 0.1);
+            border-color: #3490dc;
+            color: #2779bd;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        [data-theme="dark"] .alert-info {
+            background: #2d4a5a !important;
+            color: #e0e0e0 !important;
+            border-color: #4a90e2 !important;
+        }
+
+        .conversation-item {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        [data-theme="dark"] .conversation-item {
+            background: #2d2d2d !important;
+            border: 1px solid #444 !important;
+            color: #e0e0e0 !important;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+            .nav-link {
+                margin: 5px 0;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .main-container {
+                padding: 0 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-graduation-cap"></i>University of Birmingham Assistant
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav align-items-center">
+                    <a class="nav-link" href="/"><i class="fas fa-comments"></i>Chat</a>
+                    <a class="nav-link" href="/history"><i class="fas fa-history"></i>History</a>
+                    <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i>About</a>
+                    <button class="theme-toggle ms-3" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container flex-grow-1">
+        {% block content %}
+        <h1>Default Content</h1>
+        <p>This should be replaced by child templates.</p>
+        {% endblock %}
+    </div>
+
+    <footer>
+        <p class="mb-0">&copy; 2025 University of Birmingham Assistant Chatbot</p>
+        <small>Powered by AI • Always verify important information with official sources</small>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            const themeIcon = document.getElementById('themeIcon');
+
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeIcon.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            const themeIcon = document.getElementById('themeIcon');
+
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            themeIcon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        });
+    </script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
